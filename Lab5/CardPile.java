@@ -30,6 +30,7 @@ public class CardPile {
     public ArrayList<Card> getCards() {
         return this.cards;
     }
+    
     public static void main(String[] args) {
         CardPile p = new CardPile();
         p.add(new Card(2, 1, true));
@@ -53,3 +54,4 @@ public class CardPile {
         }
     }
 }
+
