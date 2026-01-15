@@ -40,6 +40,7 @@ public class Resistor {
     public double getPower() {
         return (v*v)/r;
     }
+    
     public static void main(String[] args) {
         Resistor r1, r2;
         System.out.println("Creating a 50 Ohm resistor (r1)");
@@ -78,3 +79,4 @@ public class Resistor {
                 + r2.getVoltage() + " Volts");
     }
 }
+
