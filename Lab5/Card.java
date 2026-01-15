@@ -126,6 +126,7 @@ public class Card implements Comparable {
             return ("?");
         }
     }
+    
     public static void main(String[] args) {
         Card club5 = new Card(5, 0, true);
         System.out.println("club5: " + club5);
@@ -137,3 +138,4 @@ public class Card implements Comparable {
         System.out.println("club5 equals club5: " + club5.equals(club5));
     }
 }
+
