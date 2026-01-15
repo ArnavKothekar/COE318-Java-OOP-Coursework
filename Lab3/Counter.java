@@ -44,10 +44,10 @@ public class Counter {
             return this.digit;
         }
     }
-
+    
     @Override
     public String toString() {
-        //DO NOT MODIFY THIS CODE
         return "" + getCount();
     }
 }
+
