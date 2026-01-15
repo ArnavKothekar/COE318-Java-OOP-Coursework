@@ -46,7 +46,6 @@ public class ComplexNumber {
         return new ComplexNumber(realNum/denominator, imagNum/denominator);
     }
 
-    //This method is not to be modified as of now
     @Override
     public String toString() {
         String str = "" + this.getReal();
@@ -60,4 +59,5 @@ public class ComplexNumber {
         }
     }
 }
+
 
