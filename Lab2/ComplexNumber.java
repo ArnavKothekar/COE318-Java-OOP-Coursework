@@ -47,6 +47,7 @@ public class ComplexNumber {
     }
 
     //This method is not to be modified as of now
+    @Override
     public String toString() {
         String str = "" + this.getReal();
         if (this.getImaginary() == 0.0) {
@@ -59,3 +60,4 @@ public class ComplexNumber {
         }
     }
 }
+
